@@ -1,0 +1,17 @@
+.parentStyles{
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.image{
+  width: 100%;
+  transition: all 3s;
+}
+
+.image:hover{
+  transform: scale(1.5) rotate(15deg);
+}
